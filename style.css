@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+body {
+  background-image: linear-gradient(to top, white 0%,grey 50%);
+}
+.top {
+  height: 170px;
+}
+
+.center {
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+margin-top: 3%;
+}
+.bottom {
+
+}
+.kern {
+  border-top: 1px solid grey;
+  margin-left: 1%;
+}
+#pro {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+#n {
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  font-size: 100px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+#high {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.pics {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  transition: .2s ease-in-out;
+}
+.pics:hover {
+  transform: scale(1.5);
+  width: 301px;
+  height: 201px;
+}
+.foto {
+  float: left;
+  height: 90px;
+  width: 100px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list li {
+  list-style-type: none;
+    display: inline-block;
+  margin: 10px;
+
+}
+.list2{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+.list2 li:hover {
+  color: black;
+}
+.list2 a {
+  text-decoration: none;
+  color: white;
+}
+.list2 a:hover {
+  color: black;
+}
+
+.list3 {
+  display: inline-block;
+  margin-bottom: 1%;
+}
+.scale {
+  transform: scale(1.2);
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+    height: 200px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      transition: 0.5s;
+      transform: scale(1);
+}
+#iconwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.icons {
+width: 30px;
+height: 30px;
+transition: .2s ease-in-out;
+margin-right: 0px;
+}
